@@ -1,0 +1,46 @@
+<!-- note that the code works..but has a slight issue...
+ the icon to close is slightly off the screen on the upper left. You can see the pointer change when you hover close to the edge of the page -->
+
+<!doctype html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+		<script src="https://kit.fontawesome.com/12e91dbb7b.js" crossorigin="anonymous"></script>
+		<title>Rotating Navigation</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="circle-container">
+				<div class="circle">
+					<button id="close">
+						<i class="fa-solid fa-xmark"></i>
+					</button>
+					<button id="open">
+						<i class="fa-solid fa-bars"></i>
+					</button>
+				</div>
+			</div>
+			<div class="content">
+				<h1>Amazing Article</h1>
+				<small>Florin Pop</small>
+				<p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum. Lorem ipsum.</p>
+
+				<h3>My dog</h3>
+				<img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80">
+				<p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum. Lorem ipsum.</p>
+			</div>
+		</div>
+
+		<nav>
+			<ul>
+				<li><i class="fa-solid fa-house"></i>Home</li>
+				<li><i class="fa-solid fa-user"></i>About</li>
+				<li><i class="fa-solid fa-envelope"></i>Contact</li>
+			</ul>
+		</nav>
+
+		<script src="script.js"></script>
+	</body>
+	</html>
